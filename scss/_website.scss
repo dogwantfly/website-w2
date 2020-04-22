@@ -13,9 +13,6 @@ h1{
     line-height: 94px;
     font-weight: 900;
 }
-.text{
-    font-weight: 700;
-}
 
 // about
 .about{
@@ -78,7 +75,6 @@ h1{
     margin-bottom: 56px;
 }
 
-
 //footer
 .footer{
     background-color: #000;
@@ -96,7 +92,6 @@ h1{
 }
 
 //text
-
 .text-light{
     color: $color-light ;
 }
@@ -105,6 +100,9 @@ h1{
 }
 .lh-1.5{
     line-height: 36px;
+}
+.fw-bold{
+    font-weight: 700;
 }
 
 //center
@@ -128,7 +126,6 @@ h1{
 .flex-between{
     justify-content: space-between;
 }
-
 
 //margin
 
