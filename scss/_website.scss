@@ -1,6 +1,9 @@
 //header
 .banner {
     background-image: url('../img/banner.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     padding: 384px 0 256px 0;
 }
@@ -19,8 +22,11 @@ h1{
 
 
 // about
-.pb-7{
+.about{
     padding-bottom: 56px; 
+}
+.about__info{
+    margin-bottom: 8px;
 }
 
 .career{
@@ -44,18 +50,33 @@ h1{
         transform: translateY(-50%);
     }
 }
-
+//brand
+.brand{
+    background-color: #000;
+    padding-bottom: 160px;
+}
+.brand__list{
+    flex-wrap: wrap;
+}
+.brand__list__item{
+    margin-left: 24px;
+}
 
 //work
-.bg-work{
+.work{
+    padding-bottom: 160px;
     background-image: url('../img/bg-work.png');
-    background-position: center bottom;
+    background-position: center bottom ;
     background-repeat: no-repeat;
+}
+.work__list{
+    margin-bottom: 56px;
 }
 
 
 //footer
-.pb-10{
+.footer{
+    background-color: #000;
     padding-bottom: 80px;
 }
 
@@ -81,16 +102,6 @@ h1{
     line-height: 36px;
 }
 
-//background
-.bg-cover{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bg-dark{
-    background-color: #000;
-}
-
 //center
 .container{
     width: 1200px;
@@ -108,23 +119,14 @@ h1{
 .flex-center{
     justify-content: center;
 }
-.flex-wrap{
-    flex-wrap: wrap;
-}
+
 .flex-between{
     justify-content: space-between;
 }
 
 
 //margin
-.ml-3{
-    margin-left: 24px;
-}
 
-
-.mb-1{
-    margin-bottom: 8px;
-}
 .mb-2{
     margin-bottom: 16px;
 }
@@ -140,9 +142,6 @@ h1{
 .mb-6{
     margin-bottom: 48px;
 }
-.mb-7{
-    margin-bottom: 56px;
-}
 .mb-8{
     margin-bottom: 64px;
 }
@@ -150,7 +149,4 @@ h1{
 //padding
 .pt-8{
     padding-top: 64px;
-}
-.pb-20{
-    padding-bottom: 160px;
 }
