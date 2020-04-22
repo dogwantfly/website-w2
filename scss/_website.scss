@@ -45,20 +45,14 @@ h1{
     }
 }
 
-//brand
-.pb-20{
-    padding-bottom: 160px;
-}
 
 //work
 .bg-work{
     background-image: url('../img/bg-work.png');
-    margin-top: 128px;
-    padding-bottom: 80px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
 }
-.top{
-    transform: translateY(-80px);
-}
+
 
 //footer
 .pb-10{
@@ -154,4 +148,7 @@ h1{
 //padding
 .pt-8{
     padding-top: 64px;
+}
+.pb-20{
+    padding-bottom: 160px;
 }
