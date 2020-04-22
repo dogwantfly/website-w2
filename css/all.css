@@ -97,6 +97,10 @@ h1 {
   font-weight: 900;
 }
 
+.text {
+  font-weight: 700;
+}
+
 .about {
   padding-bottom: 56px;
 }
