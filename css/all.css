@@ -88,7 +88,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 356px 0 256px 0;
+  height: 960px;
 }
 
 h1 {
@@ -156,7 +156,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-.work .title {
+.work__title {
   margin-bottom: 24px;
 }
 
