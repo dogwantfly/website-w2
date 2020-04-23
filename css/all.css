@@ -91,6 +91,10 @@ body {
   height: 960px;
 }
 
+.banner__content {
+  margin-top: 100px;
+}
+
 h1 {
   font-size: 80px;
   line-height: 94px;

@@ -6,6 +6,9 @@
     background-size: cover;
     align-items: center;
     height: 960px;
+    &__content{
+        margin-top: 100px;
+    }
 }
 
 h1{
